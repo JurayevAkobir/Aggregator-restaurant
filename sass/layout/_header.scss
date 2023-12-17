@@ -1,0 +1,80 @@
+@use "../abstracts/variables";
+@use "../abstracts/mixin";
+
+.header {
+    padding-top: 26px;
+
+    &__box {
+        display: flex;
+        align-items: center;
+
+        .brand {
+            h2 {
+                color: variables.$red;
+                font-family: "Inter";
+                font-size: 36px;
+                font-weight: 900;
+            }
+        }
+
+        .search-boxes {
+            margin-left: 59px;
+
+            .form {
+            border-radius: 15px;
+            border: 1px solid variables.$red;
+
+                display: flex;
+                align-items: center;
+
+                .search-box {
+
+                    img {
+                        top: 12px;
+                        left: 16px;
+                    }
+
+                    .search-input {
+                        border-radius: 15px;
+                        border: transparent;
+                        padding: 11px 0px 12px 42px;
+                        color: #8D8D8D;
+                        font-family: "Montserrat";
+                        font-style: normal;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+
+        .dostavka-box {
+            align-items: center;
+            margin-left: 40px;
+            .button {
+                padding: 12px 22px 12px 18px;
+            }
+            img {
+                margin-right: 8px;
+            }
+        }
+
+        .access-box {
+            margin-left: 178px;
+            .rus-box {
+                text-align: center;
+                margin-right: 38px;
+                h5 {
+                    color: variables.$black;
+                    font-family: "Montserrat";
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+            .access {
+                .button {
+                    padding: 11px 16px 12px 18px;
+                }
+            }
+        }
+    }
+}

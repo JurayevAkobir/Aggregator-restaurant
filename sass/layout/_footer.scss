@@ -1,0 +1,43 @@
+@use "../abstracts/variables";
+
+
+.footer {
+    margin-top: 150px;
+    padding: 40px 0 60px 0;
+    background-color: variables.$grey-bg;
+    .footer-boxes {
+        .footer-title {
+            h4 {
+                margin-bottom: 16px;
+                color: variables.$black;
+                font-family: "Montserrat";
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
+        .footer-texts {
+            ul {
+                li {
+                    list-style: none;
+                    margin: 5px 0;
+
+                    a {
+                        color: variables.$black;
+                        font-family: "Montserrat";
+                        font-size: 13px;
+                        font-weight: 400;
+                    }
+                }
+                .d-flex {
+                    align-items: center;
+                    margin-top: 44px;
+                    img {
+                        margin-right: 8px;
+                    }
+                }
+            }
+        }
+    }
+
+    
+}

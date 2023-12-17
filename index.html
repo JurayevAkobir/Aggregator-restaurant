@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Агрегатор ресторанов</title>
+	<!-- Inter font -->
+	<link rel="stylesheet" href="./fonts/inter/stylesheet.css">
+	<!-- Montserrat font -->
+	<link rel="stylesheet" href="./fonts/montserrat/stylesheet.css">
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.min.css">
+	<!-- normalize css -->
+	<link rel="stylesheet" href="./libs/normalize.css">
+	<!-- custom css -->
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+		<!-- header section -->
+		<section class="header">
+			<div class="contianer">
+				<div class="header__box d-flex">
+
+					<div class="brand">
+						<h2>Delivery</h2>
+					</div>
+
+					<div class="search-boxes">
+						<form class="form d-flex" role="search">
+							<div class="search-box position-relative">
+								<img class="position-absolute" src="images/icons/search.svg" alt="search">
+								<input class="search-input me-2" type="search" placeholder="Найти ресторан или блюдо"
+									aria-label="Search">
+							</div>
+							<button class="button" type="submit">Поиск</button>
+						</form>
+					</div>
+
+					<div class="dostavka-box">
+						<button class="button">
+							<img src="images/icons/location.svg" alt="location">
+							Укажите адрес доставки
+						</button>
+					</div>
+
+					<div class="access-box d-flex">
+						<div class="rus-box">
+							<div class="earth-icon">
+								<img src="images/icons/earth.svg" alt="earth">
+							</div>
+							<h5>Русский</h5>
+						</div>
+						<div class="access">
+							<button class="button">Войти</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+		<!-- main section -->
+		<main class="main">
+
+			<!-- first section -->
+			<section class="first-section">
+				<div class="contianer">
+					<div class="three-boxes">
+						<div class="box box-one d-flex position-relative">
+							<div class="absolute-img position-absolute">
+								<img src="images/bg.png" alt="bg">
+							</div>
+							<div class="texts-box">
+								<h3>Напиток в подарок</h3>
+								<p class="p">При заказе от 600₽</p>
+								<h3 class="d">Domino's Pizza</h3>
+								<button class="button">Перейти</button>
+							</div>
+							<div class="img-box one-img">
+								<img src="images/cofe.png" alt="cofe">
+							</div>
+						</div>
+						<div class="box box-two d-flex position-relative">
+							<div class="absolute-img-two position-absolute">
+								<img src="images/bg-2.png" alt="bg-2">
+							</div>
+							<div class="img-box ">
+								<img src="images/food.png" alt="cofe">
+							</div>
+							<div class="texts-box">
+								<h3>Бизнес-ланч</h3>
+								<div class="d-flex align-items-center">
+									<h3>400₽</h3>
+									<p>С 12:00 до 14:00</p>
+								</div>
+								<h3 class="h3">Ёж и устрица</h3>
+								<button class="button">Перейти</button>
+							</div>
+						</div>
+						<div class="box box-three d-flex position-relative">
+							<div class="absolute-img position-absolute">
+								<img src="images/bg-3.png" alt="bg">
+							</div>
+							<div class="texts-box">
+								<h3>Два тако по цене одного</h3>
+								<p>С 12:00 до 14:00</p>
+								<h3 class="h-three">Мексиканская бабушка</h3>
+								<button class="button">Перейти</button>
+							</div>
+							<div class="img-box three-img">
+								<img class="pngwing" src="images/pngwing.png" alt="pngwing">
+								<img class="pngwing-img position-absolute" src="images/pngwing.png" alt="pngwing">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- menu section -->
+			<section class="menu">
+				<div class="contianer">
+					<div class="menu-box">
+						<nav class="navbar navbar-expand">
+							<div class="collapse navbar-collapse" id="navbarNavDropdown">
+								<ul class="navbar-nav">
+									<li class="all">
+										<a class="nav-link" aria-current="page" href="#!">Все</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#!">Навынос</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#!">Пицца</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#!">Грузия</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#!">Бургеры</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#!">Шашлык</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#!">Десерты</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#!">Суши</a>
+									</li>
+									<li class="nav-item dropdown dropdown-one">
+										<a class="nav-link" href="#!" role="button" data-bs-toggle="dropdown"
+											aria-expanded="false">Еще <img src="images/icons/dropdown.svg" alt=""></a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="#!">Action</a></li>
+											<li><a class="dropdown-item" href="#!">Another action</a></li>
+											<li><a class="dropdown-item" href="#!">Something else here</a></li>
+										</ul>
+									</li>
+									<li class="dropdown dropdown-two dostavka-sorting">
+										<a class="nav-link" href="#!" role="button" data-bs-toggle="dropdown"
+											aria-expanded="false">Доставка: сейчас<img src="images/icons/dropdown.svg"
+												alt=""></a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="#!">Action</a></li>
+											<li><a class="dropdown-item" href="#!">Another action</a></li>
+											<li><a class="dropdown-item" href="#!">Something else here</a></li>
+										</ul>
+									</li>
+									<li class="sorting dostavka-sorting">
+										<a class="nav-link" href="#!">Сортировка <img src="images/icons/setting.svg"
+												alt=""></a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</section>
+
+			<!-- Stock section -->
+			<section class="stock">
+				<div class="contianer">
+					<div class="stock-boxes">
+						<div class="stock-title d-flex">
+							<h2>Акции</h2>
+							<img src="images/icons/nuqta.svg" alt="">
+						</div>
+						<div class="stock-menu">
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/pizza.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">Бесплатно, 30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/food-img.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/pizza.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">Бесплатно, 30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/pizza-2.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/pizza.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">Бесплатно, 30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- profitable offer -->
+			<section class="profitable_offer">
+				<div class="contianer">
+					<div class="profitable_offer-title">
+						<h4>Выгодные предложения</h4>
+					</div>
+					<div class="profitable_offer-boxes">
+						<div class="profitable_offer-first-box position-relative">
+							<div class="box-texts">
+								<h4>Счастливые часы</h4>
+								<p>Получите <a>скидку 20%</a> в будние дни с 12:00 до 17:00</p>
+								<img class="yigirmafoiz" src="images/yigirmafoiz.png" alt="-20%">
+								<h4>Domino's Pizza</h4>
+								<button class="button">Перейти</button>
+							</div>
+							<img class="bg-top position-absolute" src="images/bg-top.png" alt="bg-top">
+							<img class="bg-bottom position-absolute" src="images/bg-bottom.png" alt="bg-bottom">
+						</div>
+						<div class="profitable_offer-box bg_box-two position-relative">
+							<h4>КОМБО “Че нибудь”</h4>
+							<ul>
+								<li>
+									<img src="images/icons/nuqta-.svg" alt="nuqta-">
+									<p>Греческий салат</p>
+								</li>
+								<li>
+									<img src="images/icons/nuqta-.svg" alt="nuqta-">
+									<p>Грибной крем-суп</p>
+								</li>
+								<li>
+									<img src="images/icons/nuqta-.svg" alt="nuqta-">
+									<p>Паста “Карбонара”</p>
+								</li>
+								<li>
+									<img src="images/icons/nuqta-.svg" alt="nuqta-">
+									<p>Апельсиновый сок</p>
+								</li>
+							</ul>
+							<div class="d-flex">
+								<h4>600₽</h4>
+								<del>1200₽</del>
+							</div>
+							<img class="position-absolute" src="images/salad.png" alt="salad">
+							<h4 class="h-four">Ёж и устрица</h4>
+							<button class="button">Перейти</button>
+							<img class="bg-top position-absolute" src="images/bg-top2.png" alt="bg-top">
+							<img class="bg-bottom position-absolute" src="images/bg-bottom2.png" alt="bg-bottom">
+						</div>
+						<div class="profitable_offer-box bg_box-three position-relative">
+							<h4>КОМБО “Че нибудь”</h4>
+							<ul>
+								<li>
+									<img src="images/icons/nuqta-.svg" alt="nuqta-">
+									<p>Греческий салат</p>
+								</li>
+								<li>
+									<img src="images/icons/nuqta-.svg" alt="nuqta-">
+									<p>Грибной крем-суп</p>
+								</li>
+								<li>
+									<img src="images/icons/nuqta-.svg" alt="nuqta-">
+									<p>Паста “Карбонара”</p>
+								</li>
+								<li>
+									<img src="images/icons/nuqta-.svg" alt="nuqta-">
+									<p>Апельсиновый сок</p>
+								</li>
+							</ul>
+							<div class="d-flex">
+								<h4>600₽</h4>
+								<del>1200₽</del>
+							</div>
+							<img class="position-absolute" src="images/bg-pizza.png" alt="salad">
+							<h4 class="h-four">Ёж и устрица</h4>
+							<button class="button">Перейти</button>
+							<img class="bg-top position-absolute" src="images/bg-top3.png" alt="bg-top">
+							<img class="bg-bottom position-absolute" src="images/bg-bottom3.png" alt="bg-bottom">
+						</div>
+						<div class="profitable_offer-box bg_box-four position-relative">
+							<h4>КОМБО “Че нибудь”</h4>
+							<ul>
+								<li>
+									<img src="images/icons/nuqta-.svg" alt="nuqta-">
+									<p>Греческий салат</p>
+								</li>
+								<li>
+									<img src="images/icons/nuqta-.svg" alt="nuqta-">
+									<p>Грибной крем-суп</p>
+								</li>
+								<li>
+									<img src="images/icons/nuqta-.svg" alt="nuqta-">
+									<p>Паста “Карбонара”</p>
+								</li>
+								<li>
+									<img src="images/icons/nuqta-.svg" alt="nuqta-">
+									<p>Апельсиновый сок</p>
+								</li>
+							</ul>
+							<div class="d-flex">
+								<h4>600₽</h4>
+								<del>1200₽</del>
+							</div>
+							<img class="position-absolute" src="images/burger.png" alt="salad">
+							<h4 class="h-four">Ёж и устрица</h4>
+							<button class="button">Перейти</button>
+							<img class="bg-top position-absolute" src="images/bg-top.png" alt="bg-top">
+							<img class="bg-bottom position-absolute" src="images/bg-bottom.png" alt="bg-bottom">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Stock section-2 -->
+			<section class="stock">
+				<div class="contianer">
+					<div class="stock-boxes">
+						<div class="stock-title">
+							<h2>Все рестораны</h2>
+						</div>
+						<div class="stock-menu stock-menu2 m-b">
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/pizza.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">Бесплатно, 30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/food-img.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/pizza.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">Бесплатно, 30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/pizza-2.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/pizza.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">Бесплатно, 30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="stock-menu stock-menu2 m-b">
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/pizza.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">Бесплатно, 30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/food-img.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/pizza.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">Бесплатно, 30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/pizza-2.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/pizza.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">Бесплатно, 30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="stock-menu stock-menu2 m-b">
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/pizza.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">Бесплатно, 30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/food-img.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/pizza.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">Бесплатно, 30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/pizza-2.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/pizza.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">Бесплатно, 30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="stock-menu stock-menu2 m-b">
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/pizza.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">Бесплатно, 30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/food-img.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/pizza.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">Бесплатно, 30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/pizza-2.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+							<div class="stock-box">
+								<div class="big-img position-relative">
+									<img src="images/pizza.png" alt="pizza">
+									<button class="discount-btn position-absolute"><img src="images/icons/foiz.svg"
+											alt="foiz">Скидка 20%</button>
+									<button class="for_free-btn position-absolute"><img src="images/icons/car.svg"
+											alt="car">Бесплатно, 30-40 мин</button>
+								</div>
+								<div class="stock-texts">
+									<h4>Domino's Pizza</h4>
+									<div class="d-flex">
+										<img src="images/icons/Star.svg" alt="star">
+										<h4>3.9</h4>
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p.svg" alt="p">
+										<img src="images/icons/p2.svg" alt="p2">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- footer section -->
+		<footer class="footer">
+			<div class="contianer">
+				<div class="footer-boxes">
+					<div class="footer-title row">
+						<div class="col-2">
+							<h4 class="">Блюда и кухни</h4>
+						</div>
+						<div class="col-2">
+						</div>
+						<div class="col-2">
+						</div>
+						<div class="col-3">
+						</div>
+						<div class="col-3">
+							<h4 class="">О компании</h4>
+						</div>
+					</div>
+					<div class="row footer-texts">
+						<ul class="col-2">
+							<li>
+								<a href="#!!">Выпечка</a>
+							</li>
+							<li>
+								<a href="#!!">Блины</a>
+							</li>
+							<li>
+								<a href="#!!">Чебуреки</a>
+							</li>
+							<li>
+								<a href="#!">Кофе</a>
+							</li>
+							<li>
+								<a href="#!">Десерты</a>
+							</li>
+							<li>
+								<a href="#!">Фастуфут</a>
+							</li>
+							<li>
+								<a href="#!">Грузинская кухня</a>
+							</li>
+							<li>
+								<a href="#!">Хот-дог</a>
+							</li>
+						</ul>
+						<ul class="col-2">
+							<li>
+								<a href="#!">Выпечка</a>
+							</li>
+							<li>
+								<a href="#!">Блины</a>
+							</li>
+							<li>
+								<a href="#!">Чебуреки</a>
+							</li>
+							<li>
+								<a href="#!">Кофе</a>
+							</li>
+							<li>
+								<a href="#!">Десерты</a>
+							</li>
+							<li>
+								<a href="#!">Фастуфут</a>
+							</li>
+							<li>
+								<a href="#!">Грузинская кухня</a>
+							</li>
+							<li>
+								<a href="#!">Хот-дог</a>
+							</li>
+						</ul>
+						<ul class="col-2">
+							<li>
+								<a href="#!">Выпечка</a>
+							</li>
+							<li>
+								<a href="#!">Блины</a>
+							</li>
+							<li>
+								<a href="#!">Чебуреки</a>
+							</li>
+							<li>
+								<a href="#!">Кофе</a>
+							</li>
+							<li>
+								<a href="#!">Десерты</a>
+							</li>
+							<li>
+								<a href="#!">Фастуфут</a>
+							</li>
+							<li>
+								<a href="#!">Грузинская кухня</a>
+							</li>
+							<li>
+								<a href="#!">Хот-дог</a>
+							</li>
+						</ul>
+						<ul class="col-3">
+							<li>
+								<a href="#!">Выпечка</a>
+							</li>
+							<li>
+								<a href="#!">Блины</a>
+							</li>
+							<li>
+								<a href="#!">Чебуреки</a>
+							</li>
+							<li>
+								<a href="#!">Кофе</a>
+							</li>
+							<li>
+								<a href="#!">Десерты</a>
+							</li>
+							<li>
+								<a href="#!">Фастуфут</a>
+							</li>
+							<li>
+								<a href="#!">Грузинская кухня</a>
+							</li>
+							<li>
+								<a href="#!">Хот-дог</a>
+							</li>
+						</ul>
+						<ul class="col-3">
+							<li>
+								<a href="#!">Пользовательское соглашение</a>
+							</li>
+							<li>
+								<a href="#!">Контакты</a>
+							</li>
+							<li>
+								<a href="#!">Доставка</a>
+							</li>
+							<li>
+								<a href="#!">Стать партнером</a>
+							</li>
+							<li>
+								<a href="#!">Стать курьером</a>
+							</li>
+							<li>
+								<a href="#!"></a>
+							</li>
+							<li class="d-flex">
+								<a href="#!"><img src="images/icons/sms.svg" alt=""> Обратная связь</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!-- bootstrap js -->
+	<script src="./libs/bootstrap/js/bootstrap.min.js"></script>
+	<!-- swiper js -->
+	<script src="./libs/swiper/swiper.min.js"></script>
+	<!-- custom js -->
+	<script src="./js/main.js"></script>
+</body>
+
+</html>

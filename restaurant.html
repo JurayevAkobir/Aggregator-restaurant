@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ресторан</title>
+	<!-- Inter font -->
+	<link rel="stylesheet" href="./fonts/inter/stylesheet.css">
+	<!-- Montserrat font -->
+	<link rel="stylesheet" href="./fonts/montserrat/stylesheet.css">
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.min.css">
+	<!-- normalize css -->
+	<link rel="stylesheet" href="./libs/normalize.css">
+	<!-- custom css -->
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+		<!-- header section -->
+		<section class="header">
+			<div class="contianer">
+				<div class="header__box d-flex">
+
+					<div class="brand">
+						<h2>Delivery</h2>
+					</div>
+
+					<div class="search-boxes">
+						<form class="form d-flex" role="search">
+							<div class="search-box position-relative">
+								<img class="position-absolute" src="images/icons/search.svg" alt="search">
+								<input class="search-input me-2" type="search" placeholder="Найти ресторан или блюдо"
+									aria-label="Search">
+							</div>
+							<button class="button" type="submit">Поиск</button>
+						</form>
+					</div>
+
+					<div class="dostavka-box">
+						<button class="button">
+							<img src="images/icons/location.svg" alt="location">
+							Укажите адрес доставки
+						</button>
+					</div>
+
+					<div class="access-box d-flex">
+						<div class="rus-box">
+							<div class="earth-icon">
+								<img src="images/icons/earth.svg" alt="earth">
+							</div>
+							<h5>Русский</h5>
+						</div>
+						<div class="access">
+							<button class="button">Войти</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+		<!-- main section -->
+		<main class="main">
+            <div class="contianer d-flex">
+
+                <div class="big-box">
+        
+                    <!-- menu section -->
+                    <section class="menu">
+                            <div class="menu-box">
+                                <nav class="navbar navbar-expand">
+                                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                        <ul class="navbar-nav">
+                                            <li class="all">
+                                                <a class="nav-link" aria-current="page" href="#!">Все</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#!">Навынос</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#!">Пицца</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#!">Грузия</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#!">Бургеры</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#!">Шашлык</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#!">Десерты</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#!">Суши</a>
+                                            </li>
+                                            <li class="nav-item dropdown dropdown-one">
+                                                <a class="nav-link" href="#!" role="button" data-bs-toggle="dropdown"
+                                                    aria-expanded="false">Еще <img src="images/icons/dropdown.svg" alt=""></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#!">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#!">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#!">Something else here</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown dropdown-two dostavka-sorting">
+                                                <a class="nav-link" href="#!" role="button" data-bs-toggle="dropdown"
+                                                    aria-expanded="false">Доставка: сейчас<img src="images/icons/dropdown.svg"
+                                                        alt=""></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#!">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#!">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#!">Something else here</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="sorting dostavka-sorting">
+                                                <a class="nav-link" href="#!">Сортировка <img src="images/icons/setting.svg"
+                                                        alt=""></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                    </section>
+        
+                    <!-- profitable offer -->
+                    <section class="profitable_offer">
+                            <div class="profitable_offer-title">
+                                <h4>Выгодные предложения</h4>
+                            </div>
+                            <div class="profitable_offer-boxes">
+                                <div class="profitable_offer-box bg_box-two position-relative">
+                                    <h4>КОМБО “Че нибудь”</h4>
+                                    <ul>
+                                        <li>
+                                            <img src="images/icons/nuqta-.svg" alt="nuqta-">
+                                            <p>Греческий салат</p>
+                                        </li>
+                                        <li>
+                                            <img src="images/icons/nuqta-.svg" alt="nuqta-">
+                                            <p>Грибной крем-суп</p>
+                                        </li>
+                                        <li>
+                                            <img src="images/icons/nuqta-.svg" alt="nuqta-">
+                                            <p>Паста “Карбонара”</p>
+                                        </li>
+                                        <li>
+                                            <img src="images/icons/nuqta-.svg" alt="nuqta-">
+                                            <p>Апельсиновый сок</p>
+                                        </li>
+                                    </ul>
+                                    <div class="d-flex">
+                                        <h4>600₽</h4>
+                                        <del>1200₽</del>
+                                    </div>
+                                    <img class="position-absolute" src="images/salad.png" alt="salad">
+                                    <h4 class="h-four">Ёж и устрица</h4>
+                                    <button class="button">Перейти</button>
+                                    <img class="bg-top position-absolute" src="images/bg-top2.png" alt="bg-top">
+                                    <img class="bg-bottom position-absolute" src="images/bg-bottom2.png" alt="bg-bottom">
+                                </div>
+                                <div class="profitable_offer-box bg_box-three position-relative">
+                                    <h4>КОМБО “Че нибудь”</h4>
+                                    <ul>
+                                        <li>
+                                            <img src="images/icons/nuqta-.svg" alt="nuqta-">
+                                            <p>Греческий салат</p>
+                                        </li>
+                                        <li>
+                                            <img src="images/icons/nuqta-.svg" alt="nuqta-">
+                                            <p>Грибной крем-суп</p>
+                                        </li>
+                                        <li>
+                                            <img src="images/icons/nuqta-.svg" alt="nuqta-">
+                                            <p>Паста “Карбонара”</p>
+                                        </li>
+                                        <li>
+                                            <img src="images/icons/nuqta-.svg" alt="nuqta-">
+                                            <p>Апельсиновый сок</p>
+                                        </li>
+                                    </ul>
+                                    <div class="d-flex">
+                                        <h4>600₽</h4>
+                                        <del>1200₽</del>
+                                    </div>
+                                    <img class="position-absolute" src="images/bg-pizza.png" alt="salad">
+                                    <h4 class="h-four">Ёж и устрица</h4>
+                                    <button class="button">Перейти</button>
+                                    <img class="bg-top position-absolute" src="images/bg-top3.png" alt="bg-top">
+                                    <img class="bg-bottom position-absolute" src="images/bg-bottom3.png" alt="bg-bottom">
+                                </div>
+                                <div class="profitable_offer-box bg_box-four position-relative">
+                                    <h4>КОМБО “Че нибудь”</h4>
+                                    <ul>
+                                        <li>
+                                            <img src="images/icons/nuqta-.svg" alt="nuqta-">
+                                            <p>Греческий салат</p>
+                                        </li>
+                                        <li>
+                                            <img src="images/icons/nuqta-.svg" alt="nuqta-">
+                                            <p>Грибной крем-суп</p>
+                                        </li>
+                                        <li>
+                                            <img src="images/icons/nuqta-.svg" alt="nuqta-">
+                                            <p>Паста “Карбонара”</p>
+                                        </li>
+                                        <li>
+                                            <img src="images/icons/nuqta-.svg" alt="nuqta-">
+                                            <p>Апельсиновый сок</p>
+                                        </li>
+                                    </ul>
+                                    <div class="d-flex">
+                                        <h4>600₽</h4>
+                                        <del>1200₽</del>
+                                    </div>
+                                    <img class="position-absolute" src="images/burger.png" alt="salad">
+                                    <h4 class="h-four">Ёж и устрица</h4>
+                                    <button class="button">Перейти</button>
+                                    <img class="bg-top position-absolute" src="images/bg-top.png" alt="bg-top">
+                                    <img class="bg-bottom position-absolute" src="images/bg-bottom.png" alt="bg-bottom">
+                                </div>
+                            </div>
+                    </section>
+        
+                    </div>
+        
+                    <div class="basket">
+                        <div class="basket-title">
+                            <h4>Корзина</h4>
+                        </div>
+                        <div class="img-text_box">
+                            <img src="images/img.png" alt="img">
+                            <h5>Ваша корзина пока пустая</h5>
+                        </div>
+                        <div class="bottom-box">
+                            <div class="car-img">
+                                <img src="images/icons/car.svg" alt="car">
+                            </div>
+                            <h5>Доставка 0 ₽ · 30–40 мин</h5>
+                            <p>Дальняя доставка · Работа <br> сервиса 44 ₽<br>
+                                работа сервиса от 44 ₽</p>
+                        </div>
+                    </div>
+
+            </div>
+		</main>
+
+		<!-- footer section -->
+		<footer class="footer">
+			<div class="contianer">
+				<div class="footer-boxes">
+					<div class="footer-title row">
+						<div class="col-2">
+							<h4 class="">Блюда и кухни</h4>
+						</div>
+						<div class="col-2">
+						</div>
+						<div class="col-2">
+						</div>
+						<div class="col-3">
+						</div>
+						<div class="col-3">
+							<h4 class="">О компании</h4>
+						</div>
+					</div>
+					<div class="row footer-texts">
+						<ul class="col-2">
+							<li>
+								<a href="#!!">Выпечка</a>
+							</li>
+							<li>
+								<a href="#!!">Блины</a>
+							</li>
+							<li>
+								<a href="#!!">Чебуреки</a>
+							</li>
+							<li>
+								<a href="#!">Кофе</a>
+							</li>
+							<li>
+								<a href="#!">Десерты</a>
+							</li>
+							<li>
+								<a href="#!">Фастуфут</a>
+							</li>
+							<li>
+								<a href="#!">Грузинская кухня</a>
+							</li>
+							<li>
+								<a href="#!">Хот-дог</a>
+							</li>
+						</ul>
+						<ul class="col-2">
+							<li>
+								<a href="#!">Выпечка</a>
+							</li>
+							<li>
+								<a href="#!">Блины</a>
+							</li>
+							<li>
+								<a href="#!">Чебуреки</a>
+							</li>
+							<li>
+								<a href="#!">Кофе</a>
+							</li>
+							<li>
+								<a href="#!">Десерты</a>
+							</li>
+							<li>
+								<a href="#!">Фастуфут</a>
+							</li>
+							<li>
+								<a href="#!">Грузинская кухня</a>
+							</li>
+							<li>
+								<a href="#!">Хот-дог</a>
+							</li>
+						</ul>
+						<ul class="col-2">
+							<li>
+								<a href="#!">Выпечка</a>
+							</li>
+							<li>
+								<a href="#!">Блины</a>
+							</li>
+							<li>
+								<a href="#!">Чебуреки</a>
+							</li>
+							<li>
+								<a href="#!">Кофе</a>
+							</li>
+							<li>
+								<a href="#!">Десерты</a>
+							</li>
+							<li>
+								<a href="#!">Фастуфут</a>
+							</li>
+							<li>
+								<a href="#!">Грузинская кухня</a>
+							</li>
+							<li>
+								<a href="#!">Хот-дог</a>
+							</li>
+						</ul>
+						<ul class="col-3">
+							<li>
+								<a href="#!">Выпечка</a>
+							</li>
+							<li>
+								<a href="#!">Блины</a>
+							</li>
+							<li>
+								<a href="#!">Чебуреки</a>
+							</li>
+							<li>
+								<a href="#!">Кофе</a>
+							</li>
+							<li>
+								<a href="#!">Десерты</a>
+							</li>
+							<li>
+								<a href="#!">Фастуфут</a>
+							</li>
+							<li>
+								<a href="#!">Грузинская кухня</a>
+							</li>
+							<li>
+								<a href="#!">Хот-дог</a>
+							</li>
+						</ul>
+						<ul class="col-3">
+							<li>
+								<a href="#!">Пользовательское соглашение</a>
+							</li>
+							<li>
+								<a href="#!">Контакты</a>
+							</li>
+							<li>
+								<a href="#!">Доставка</a>
+							</li>
+							<li>
+								<a href="#!">Стать партнером</a>
+							</li>
+							<li>
+								<a href="#!">Стать курьером</a>
+							</li>
+							<li>
+								<a href="#!"></a>
+							</li>
+							<li class="d-flex">
+								<a href="#!"><img src="images/icons/sms.svg" alt=""> Обратная связь</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!-- bootstrap js -->
+	<script src="./libs/bootstrap/js/bootstrap.min.js"></script>
+	<!-- swiper js -->
+	<script src="./libs/swiper/swiper.min.js"></script>
+	<!-- custom js -->
+	<script src="./js/main.js"></script>
+</body>
+
+</html>

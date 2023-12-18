@@ -1,1 +1,270 @@
 @use "../abstracts/variables";
+
+
+.main {
+    .big-box {
+        .menu {
+            width: 925px;
+            margin-top: 50px;
+
+            .menu-title {
+                margin-bottom: 26px;
+                display: flex;
+                align-items: center;
+
+                img {
+                    margin-right: 4px;
+                }
+
+                a {
+                    color: variables.$black;
+                    font-family: "Montserrat";
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    .basket {
+        width: 295px;
+        height: 612px;
+        padding: 16px;
+        margin-top: 98px;
+        margin-left: 20px;
+        border-radius: 15px 15px 0px 0px;
+        background: #F4F4F4;
+
+        .basket-title {
+            h4 {
+                color: variables.$black;
+                font-family: "Montserrat";
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+
+        .img-text_box {
+            margin-top: 103px;
+            text-align: center;
+
+            h5 {
+                color: variables.$black;
+                font-family: "Montserrat";
+                font-size: 16px;
+                font-weight: 600;
+                margin-top: 16px;
+            }
+        }
+
+        .bottom-box {
+            margin-top: 194px;
+            padding-top: 12px;
+            border-top: 0.5px solid #BEBEBE;
+            display: flex;
+            align-items: center;
+
+            .car-img {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                padding: 8px;
+                border-radius: 5px;
+                background: #FFC11E;
+            }
+
+            .bottom-box_texts {
+                margin-left: 8px;
+
+                h5 {
+                    color: variables.$black;
+                    font-family: "Montserrat";
+                    font-size: 13px;
+                    font-weight: 400;
+                }
+
+                p {
+                    color: #BEBEBE;
+                    font-family: "Montserrat";
+                    font-size: 13px;
+                    font-weight: 300;
+                    line-height: 117.4%;
+                }
+            }
+
+            .i-img {
+                margin-left: 21px;
+            }
+        }
+    }
+
+    // domino's pizza
+    .domino-pizza {
+        padding-left: 23px;
+        margin-top: 24px;
+        background-image: url(../../images/domino-bg.png);
+        background-repeat: no-repeat;
+        border-radius: 15px;
+        padding-bottom: 32px;
+
+        h4 {
+            padding-top: 83px;
+            color: variables.$white;
+            font-family: "Montserrat";
+            font-size: 36px;
+            font-weight: 900;
+        }
+
+        .domino-pizza-boxes {
+            margin-top: 18px;
+            align-items: center;
+
+            .yellow-box {
+                padding: 12px;
+                border-radius: 15px;
+                background: #FFC11E;
+            }
+
+            .green-box {
+                margin: 0 24px;
+                padding: 12px 13px 12px 12px;
+                border-radius: 15px;
+                background: #00AE63;
+            }
+
+            .red-box {
+                padding: 14px 12px 13px 12px;
+                border-radius: 15px;
+                background: #FF4C34;
+            }
+
+            .box_ {
+                display: flex;
+                align-items: center;
+
+                .box-texts {
+                    margin-left: 7px;
+
+                    h5 {
+                        color: variables.$white;
+                        font-family: "Montserrat";
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 136.9%;
+                    }
+
+                    p {
+                        color: variables.$white;
+                        font-family: "Montserrat";
+                        font-size: 10px;
+                        font-weight: 600;
+                        line-height: 136.9%;
+                    }
+                }
+            }
+        }
+    }
+
+    // food-menu
+    .food-menu {
+        .food-menu-title {
+            h4 {
+                margin-bottom: 24px;
+                color: variables.$black;
+                font-family: "Montserrat";
+                font-size: 28px;
+                font-weight: 600;
+            }
+        }
+        .food-menu_boxes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 0 15px;
+            .food-menu_box {
+                width: 220px;
+                padding: 16px 17px 12px 16px;
+                border-radius: 15px;
+                background: #F4F4F4;
+
+                .food-img_box {
+                    margin-bottom: 5px;
+
+                    .d-flex {
+                        align-items: center;
+                        padding: 4px 6px;
+                        border-radius: 15px;
+
+                        p {
+                            margin-left: 6px;
+                            color: variables.$white;
+                            font-family: "Montserrat";
+                            font-size: 9px;
+                            font-weight: 600;
+                        }
+                    }
+
+                    .green {
+                        top: 0;
+                        background: variables.$green;
+                    }
+
+                    .kuk-quti {
+                        top: 0;
+                        background: #3A95FF;
+                    }
+
+                    .blue {
+                        top: 26px;
+                        background: #3A95FF;
+                    }
+
+                    .pushti {
+                        bottom: 0;
+                        right: 0;
+                        border-radius: 15px;
+                        background: #FF629A;
+                    }
+                }
+
+                .food-texts_box {
+                    .d-flex {
+                        h4 {
+                            color: variables.$red;
+                            font-family: "Montserrat";
+                            font-size: 16px;
+                            font-weight: 600;
+                        }
+                        del {
+                            color: #ABABAB;
+                            font-family: "Montserrat";
+                            font-size: 12px;
+                            font-weight: 500;
+                            margin-left: 4px;
+                        }
+                    }
+                    p {
+                        margin-top: 8px;
+                        color: variables.$black;
+                        font-family: "Montserrat";
+                        font-size: 13px;
+                        font-weight: 400;
+                        width: 158px;
+                        margin-bottom: 16px;
+                    }
+                    .btn-box {
+                        text-align: center;
+                        .button {
+                            padding: 8px 60px 7px 61px;
+                        }
+                    }
+                }
+            }
+        }
+        .m-t {
+            margin-top: 20px;
+        }
+    }
+    .m-t2 {
+        margin-top: 40px;
+    }
+}

@@ -176,10 +176,12 @@
                 font-weight: 600;
             }
         }
+
         .food-menu_boxes {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
             gap: 0 15px;
+
             .food-menu_box {
                 width: 220px;
                 padding: 16px 17px 12px 16px;
@@ -234,6 +236,7 @@
                             font-size: 16px;
                             font-weight: 600;
                         }
+
                         del {
                             color: #ABABAB;
                             font-family: "Montserrat";
@@ -242,6 +245,7 @@
                             margin-left: 4px;
                         }
                     }
+
                     p {
                         margin-top: 8px;
                         color: variables.$black;
@@ -251,8 +255,10 @@
                         width: 158px;
                         margin-bottom: 16px;
                     }
+
                     .btn-box {
                         text-align: center;
+
                         .button {
                             padding: 8px 60px 7px 61px;
                         }
@@ -260,11 +266,233 @@
                 }
             }
         }
+
         .m-t {
             margin-top: 20px;
         }
     }
+
     .m-t2 {
         margin-top: 40px;
+    }
+}
+
+// modal section
+
+.modal {
+    .modal-dialog {
+        max-width: 1002px;
+        width: 100%;
+
+        .modal-content {
+            .modal-top {
+                padding: 16px;
+                text-align: end;
+            }
+
+            .modal-body {
+                .modal-body_texts {
+                    margin-left: 15px;
+
+                    .title {
+                        margin-bottom: 12px;
+
+                        h4 {
+                            color: variables.$black;
+                            font-family: "Montserrat";
+                            font-size: 24px;
+                            font-weight: 600;
+                            margin-bottom: 4px;
+                        }
+
+                        p {
+                            color: variables.$black;
+                            font-family: "Montserrat";
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 132.9%;
+                        }
+                    }
+
+                    .modal-tabs {
+                        .tabs-title {
+                            h4 {
+                                color: variables.$black;
+                                font-family: "Montserrat";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 132.9%;
+                                margin-bottom: 4px;
+                            }
+                        }
+
+                        .nav {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-around;
+                            border-radius: 15px;
+                            background: #F4F4F4;
+                            padding: 5px 16px 4px 12px;
+
+                            .nav-link {
+                                width: 100%;
+                                padding: 6px 17px;
+                                border-radius: 15px;
+                                color: variables.$black;
+                                font-family: "Montserrat";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 132.9%;
+
+
+                                &:focus {
+                                    background: variables.$white;
+                                }
+
+                                &:active {
+                                    background: variables.$white;
+                                }
+
+                            }
+                        }
+
+                        .tab-content {
+                            .tab-pane {
+                                .pane-title {
+                                    h4 {
+                                        color: variables.$black;
+                                        font-family: "Montserrat";
+                                        font-size: 15px;
+                                        font-weight: 400;
+                                        line-height: 132.9%;
+                                    }
+                                }
+
+                                .tab-pane_wrapper {
+                                    padding: 11px 12px;
+                                    border-radius: 15px;
+                                    background: #F4F4F4;
+
+                                    .tab-pane_boxes {
+                                        margin-top: 8px;
+
+                                        .tab-pane_box {
+                                            text-align: center;
+                                            width: 160px;
+                                            margin-left: 9px;
+                                            padding: 14px 24px 13px 24px;
+                                            border-radius: 15px;
+                                            background: variables.$white;
+
+                                            h5 {
+                                                color: variables.$black;
+                                                font-family: "Montserrat";
+                                                font-size: 12px;
+                                                font-weight: 400;
+                                                line-height: 132.9%;
+                                            }
+
+                                            .h5 {
+                                                width: 160px;
+                                                padding-right: 40px;
+                                            }
+
+                                            .d-flex {
+                                                margin-top: 8px;
+                                                align-items: center;
+
+                                                h5 {
+                                                    margin: 0 17px;
+                                                    color: #000;
+                                                    font-family: "Montserrat";
+                                                    font-size: 10px;
+                                                    font-weight: 400;
+                                                }
+
+                                                h3 {
+                                                    color: variables.$black;
+                                                    font-family: "Montserrat";
+                                                    font-size: 14px;
+                                                    font-weight: 500;
+                                                    line-height: 132.9%;
+                                                    margin-left: 24px;
+                                                }
+
+                                                h4 {
+                                                    color: variables.$black;
+                                                    font-family: "Montserrat";
+                                                    font-size: 14px;
+                                                    font-weight: 500;
+                                                    line-height: 132.9%;
+                                                    margin-left: 44px;
+                                                }
+                                            }
+                                        }
+
+                                        .m_t {
+                                            padding-top: 24px;
+                                        }
+
+                                        .bordr {
+                                            border: 1px solid variables.$red;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .modal-bottom-boxes {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 32px;
+
+                .modal-bottom_texts {
+                    margin-bottom: 12px;
+
+                    h2 {
+                        color: variables.$red;
+                        font-family: "Montserrat";
+                        font-size: 24px;
+                        font-weight: 600;
+                    }
+
+                    del {
+                        color: #ABABAB;
+                        font-family: "Montserrat";
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+                }
+
+                .buttons {
+                    .button {
+                        padding: 12px 32px;
+                        margin-right: 15px;
+                    }
+
+                    .btn2 {
+                        align-items: center;
+                        padding: 12px;
+                        border-radius: 15px;
+                        border: 1px solid variables.$red;
+
+                        h4 {
+                            margin: 0 40px;
+                            color: variables.$black;
+                            font-family: "Montserrat";
+                            font-size: 15px;
+                            font-weight: 500;
+                        }
+                        img {
+                        }
+                    }
+                }
+            }
+        }
     }
 }

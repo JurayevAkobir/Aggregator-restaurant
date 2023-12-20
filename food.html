@@ -258,7 +258,8 @@
 									</div>
 									<p>Охотничья, Большая (33 см)</p>
 									<div class="btn-box">
-										<button class="button">Добавить</button>
+										<button class="button" type="button" data-bs-toggle="modal"
+											data-bs-target="#staticBackdrop">Добавить</button>
 									</div>
 								</div>
 							</div>
@@ -281,7 +282,8 @@
 									</div>
 									<p>Охотничья, Большая (33 см)</p>
 									<div class="btn-box">
-										<button class="button">Добавить</button>
+										<button class="button" type="button" data-bs-toggle="modal"
+											data-bs-target="#staticBackdrop">Добавить</button>
 									</div>
 								</div>
 							</div>
@@ -305,7 +307,8 @@
 									</div>
 									<p>Охотничья, Большая (33 см)</p>
 									<div class="btn-box">
-										<button class="button">Добавить</button>
+										<button class="button" type="button" data-bs-toggle="modal"
+											data-bs-target="#staticBackdrop">Добавить</button>
 									</div>
 								</div>
 							</div>
@@ -328,7 +331,8 @@
 									</div>
 									<p>Охотничья, Большая (33 см)</p>
 									<div class="btn-box">
-										<button class="button">Добавить</button>
+										<button class="button" type="button" data-bs-toggle="modal"
+											data-bs-target="#staticBackdrop">Добавить</button>
 									</div>
 								</div>
 							</div>
@@ -353,7 +357,8 @@
 									</div>
 									<p>Охотничья, Большая (33 см)</p>
 									<div class="btn-box">
-										<button class="button">Добавить</button>
+										<button class="button" type="button" data-bs-toggle="modal"
+											data-bs-target="#staticBackdrop">Добавить</button>
 									</div>
 								</div>
 							</div>
@@ -376,7 +381,8 @@
 									</div>
 									<p>Охотничья, Большая (33 см)</p>
 									<div class="btn-box">
-										<button class="button">Добавить</button>
+										<button class="button" type="button" data-bs-toggle="modal"
+											data-bs-target="#staticBackdrop">Добавить</button>
 									</div>
 								</div>
 							</div>
@@ -399,7 +405,8 @@
 									</div>
 									<p>Охотничья, Большая (33 см)</p>
 									<div class="btn-box">
-										<button class="button">Добавить</button>
+										<button class="button" type="button" data-bs-toggle="modal"
+											data-bs-target="#staticBackdrop">Добавить</button>
 									</div>
 								</div>
 							</div>
@@ -418,7 +425,8 @@
 									</div>
 									<p>Охотничья, Большая (33 см)</p>
 									<div class="btn-box">
-										<button class="button">Добавить</button>
+										<button class="button" type="button" data-bs-toggle="modal"
+											data-bs-target="#staticBackdrop">Добавить</button>
 									</div>
 								</div>
 							</div>
@@ -604,32 +612,846 @@
 			</div>
 		</footer>
 	</div>
-    
-    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-    Launch static backdrop modal
-  </button>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable">
-      <div class="modal-content">
-   
-    <div class="modal-header">
-          <button type="button" data-bs-dismiss="modal" aria-label="Close">
-            <img src="images/icons/close.svg" alt="">
-          </button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Understood</button>
-        </div>
-      </div>
-    </div>
-  </div>
+
+	<!-- Button trigger modal -->
+	<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+		Launch static backdrop modal
+	</button>
+
+	<!-- Modal -->
+	<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+		aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+			<div class="modal-content">
+
+				<div class="modal-top">
+					<button type="button" data-bs-dismiss="modal" aria-label="Close">
+						<img src="images/icons/close.svg" alt="">
+					</button>
+				</div>
+				<div class="modal-body d-flex">
+					<div class="big-img">
+						<img src="images/modal-img.png" alt="modal-img">
+					</div>
+					<div class="modal-body_texts">
+						<div class="title">
+							<h4>Пицца Четыре сыра</h4>
+							<p>Состав: Тесто (20х30 см), сливочный соус, моцарелла, сыр с плесенью, чеддер, пармезан</p>
+						</div>
+						<div class="modal-tabs">
+							<div class="tabs-title">
+								<h4>Размер</h4>
+							</div>
+							<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+								<li class="nav-item" role="presentation">
+									<button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+										data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+										aria-selected="true">Маленькая</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+										data-bs-target="#pills-profile" type="button" role="tab"
+										aria-controls="pills-profile" aria-selected="false">Средняя</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+										data-bs-target="#pills-contact" type="button" role="tab"
+										aria-controls="pills-contact" aria-selected="false">Большая</button>
+								</li>
+							</ul>
+							<div class="tab-content" id="pills-tabContent">
+								<div class="tab-pane fade" id="pills-contact" role="tabpanel"
+									aria-labelledby="pills-contact-tab" tabindex="0">
+									<div class="modal-tabs">
+										<div class="tabs-title">
+											<h4>Тесто</h4>
+										</div>
+										<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+											<li class="nav-item" role="presentation">
+												<button class="nav-link active" id="pills-home-tab"
+													data-bs-toggle="pill" data-bs-target="#pills-home" type="button"
+													role="tab" aria-controls="pills-home"
+													aria-selected="true">Традиционное</button>
+											</li>
+											<li class="nav-item" role="presentation">
+												<button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+													data-bs-target="#pills-profile" type="button" role="tab"
+													aria-controls="pills-profile" aria-selected="false">Тонкое</button>
+											</li>
+										</ul>
+										<div class="tab-content" id="pills-tabContent">
+											<div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+												aria-labelledby="pills-home-tab" tabindex="0">
+												<div class="pane-title">
+													<h4>Добавить по вкусу</h4>
+												</div>
+												<div class="tab-pane_wrapper">
+
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box m_t bordr">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h3>158₽</h3>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box m_t">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box m_t bordr">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h3>158₽</h3>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box m_t">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box m_t bordr">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h3>158₽</h3>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box m_t">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box m_t bordr">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h3>158₽</h3>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box m_t">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box m_t bordr">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h3>158₽</h3>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box m_t">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box m_t bordr">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h3>158₽</h3>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box m_t">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+
+												</div>
+											</div>
+											<div class="tab-pane fade" id="pills-profile" role="tabpanel"
+												aria-labelledby="pills-profile-tab" tabindex="0">
+												<div class="tab-pane_wrapper">
+													<div class="pane-title">
+														<h4>Добавить по вкусу</h4>
+
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h4>158₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h4>158₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h4>158₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h4>158₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h4>158₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h4>158₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="pills-contact" role="tabpanel"
+									aria-labelledby="pills-contact-tab" tabindex="0">
+									<div class="modal-tabs">
+										<div class="tabs-title">
+											<h4>Тесто</h4>
+										</div>
+										<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+											<li class="nav-item" role="presentation">
+												<button class="nav-link active" id="pills-home-tab"
+													data-bs-toggle="pill" data-bs-target="#pills-home" type="button"
+													role="tab" aria-controls="pills-home"
+													aria-selected="true">Традиционное</button>
+											</li>
+											<li class="nav-item" role="presentation">
+												<button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+													data-bs-target="#pills-profile" type="button" role="tab"
+													aria-controls="pills-profile" aria-selected="false">Тонкое</button>
+											</li>
+										</ul>
+										<div class="tab-content" id="pills-tabContent">
+											<div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+												aria-labelledby="pills-home-tab" tabindex="0">
+												<div class="pane-title">
+													<h4>Добавить по вкусу</h4>
+												</div>
+												<div class="tab-pane_wrapper">
+
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box m_t bordr">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h3>158₽</h3>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box m_t">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box m_t bordr">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h3>158₽</h3>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box m_t">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box m_t bordr">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h3>158₽</h3>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box m_t">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box m_t bordr">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h3>158₽</h3>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box m_t">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box m_t bordr">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h3>158₽</h3>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box m_t">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box m_t bordr">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h3>158₽</h3>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box m_t">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="tab-pane fade" id="pills-profile" role="tabpanel"
+												aria-labelledby="pills-profile-tab" tabindex="0">
+												<div class="pane-title">
+													<h4>Добавить по вкусу</h4>
+												</div>
+												<div class="tab-pane_wrapper">
+													
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box m_t bordr">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h3>158₽</h3>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box m_t">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box m_t bordr">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h3>158₽</h3>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box m_t">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box m_t bordr">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h3>158₽</h3>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box m_t">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box m_t bordr">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h3>158₽</h3>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box m_t">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box m_t bordr">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h3>158₽</h3>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box m_t">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box m_t bordr">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h3>158₽</h3>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5 class="h5">Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box m_t">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="pills-contact" role="tabpanel"
+									aria-labelledby="pills-contact-tab" tabindex="0">
+									<div class="modal-tabs">
+										<div class="tabs-title">
+											<h4>Тесто</h4>
+										</div>
+										<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+											<li class="nav-item" role="presentation">
+												<button class="nav-link active" id="pills-home-tab"
+													data-bs-toggle="pill" data-bs-target="#pills-home" type="button"
+													role="tab" aria-controls="pills-home"
+													aria-selected="true">Традиционное</button>
+											</li>
+											<li class="nav-item" role="presentation">
+												<button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+													data-bs-target="#pills-profile" type="button" role="tab"
+													aria-controls="pills-profile" aria-selected="false">Тонкое</button>
+											</li>
+										</ul>
+										<div class="tab-content" id="pills-tabContent">
+											<div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+												aria-labelledby="pills-home-tab" tabindex="0">
+												<div class="tab-pane_wrapper">
+													<div class="pane-title">
+														<h4>Добавить по вкусу</h4>
+
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h4>158₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5>Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h4>158₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5>Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="tab-pane fade" id="pills-profile" role="tabpanel"
+												aria-labelledby="pills-profile-tab" tabindex="0">
+												<div class="tab-pane_wrapper">
+													<div class="pane-title">
+														<h4>Добавить по вкусу</h4>
+
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h4>158₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5>Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane_boxes d-flex">
+														<div class="tab-pane_box">
+															<h5>Моцарелла</h5>
+															<div class="d-flex">
+																<img src="images/icons/minus.svg" alt="minus">
+																<h5>2</h5>
+																<img src="images/icons/plas.svg" alt="plas">
+																<h4>158₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5>Свежая пекинская капуста</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+														<div class="tab-pane_box">
+															<h5>Цыпленок</h5>
+															<div class="d-flex">
+																<h4>79₽</h4>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+				
+				<div class="modal-bottom-boxes">
+					<div class="d-flex modal-bottom_texts">
+						<h2>751₽</h2>
+						<del>936₽</del>
+					</div>
+					<div class="d-flex buttons">
+						<button type="button" class="button" data-bs-dismiss="modal">Добавить</button>
+						<button type="button" class="d-flex btn2">
+							<img src="images/icons/minus2.svg" alt="minus2">
+							<h4>1</h4>
+							<img src="images/icons/plas2.svg" alt="plas2">
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- bootstrap js -->
 	<script src="./libs/bootstrap/js/bootstrap.min.js"></script>
@@ -639,4 +1461,4 @@
 	<script src="./js/main.js"></script>
 </body>
 
-</html> 
+</html>

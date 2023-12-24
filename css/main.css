@@ -507,6 +507,186 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
+.main .big-box .form_boxes {
+  margin-bottom: 48px;
+}
+.main .big-box .form_boxes .form-title {
+  color: #1E1E1E;
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+.main .big-box .form_boxes .bg-box {
+  padding: 32px;
+  border-radius: 15px;
+  background: #F4F4F4;
+}
+.main .big-box .form_boxes .bg-box h4 {
+  color: #1E1E1E;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+}
+.main .big-box .form_boxes .bg-box .two-boxes {
+  margin: 24px 0 32px 0;
+}
+.main .big-box .form_boxes .bg-box .two-boxes .box {
+  padding: 8px 24px;
+}
+.main .big-box .form_boxes .bg-box .two-boxes .box h5 {
+  color: #1E1E1E;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.main .big-box .form_boxes .bg-box .two-boxes .one-b {
+  border-radius: 15px;
+  background: #FFF;
+}
+.main .big-box .form_boxes .bg-box .location-box {
+  margin-bottom: 16px;
+  align-items: center;
+}
+.main .big-box .form_boxes .bg-box .location-box p {
+  color: #1E1E1E;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 8px;
+  margin-right: 4px;
+}
+.main .big-box .form_boxes .bg-box .form .inputs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0 20px;
+}
+.main .big-box .form_boxes .bg-box .form .inputs input {
+  border: transparent;
+  padding: 11px 98px 12px 14px;
+  border-radius: 15px;
+  background: #FFF;
+  color: #8B8B8B;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+}
+.main .big-box .form_boxes .bg-box .form .input {
+  margin-top: 16px;
+  width: 100%;
+  border: transparent;
+  padding: 11px 98px 12px 14px;
+  border-radius: 15px;
+  background: #FFF;
+  margin-right: 18px;
+  color: #8B8B8B;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+}
+.main .big-box .form_boxes .bg-box h3 {
+  margin-top: 40px;
+  margin-bottom: 24px;
+  color: #1E1E1E;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+}
+.main .big-box .form_boxes .bg-box_two {
+  margin-top: 32px;
+}
+.main .big-box .form_boxes .bg-box_two .bg-box-title {
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.main .big-box .form_boxes .bg-box_two .bg-box-title p {
+  color: #979797;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+}
+.main .big-box .form_boxes .bg-box_two .food_box {
+  margin-bottom: 24px;
+  border-radius: 15px;
+  padding: 12px 0px 12px 48px;
+  background-color: #FFF;
+  width: 220px;
+}
+.main .big-box .form_boxes .bg-box_two .food_box h4 {
+  color: #1E1E1E;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+}
+.main .big-box .form_boxes .bg-box_two .food_box .position-absolute {
+  top: 8px;
+  left: 16px;
+}
+.main .big-box .form_boxes .bg-box_two .order-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .big-box .form_boxes .bg-box_two .order-boxes .order-box_one {
+  display: flex;
+}
+.main .big-box .form_boxes .bg-box_two .order-boxes .order-box_one img {
+  width: 100px;
+  height: 99px;
+}
+.main .big-box .form_boxes .bg-box_two .order-boxes .order-box_one .box_one-texts {
+  margin-left: 16px;
+}
+.main .big-box .form_boxes .bg-box_two .order-boxes .order-box_one .box_one-texts h4 {
+  width: 154px;
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 135.9%;
+}
+.main .big-box .form_boxes .bg-box_two .order-boxes .order-box_one .box_one-texts p {
+  margin-top: 4px;
+  width: 188px;
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 132.4%;
+}
+.main .big-box .form_boxes .bg-box_two .order-boxes .order-box_two {
+  border-radius: 15px;
+  background: #FFF;
+  display: flex;
+  padding: 10px 12px;
+  justify-content: center;
+  align-items: center;
+}
+.main .big-box .form_boxes .bg-box_two .order-boxes .order-box_two p {
+  margin: 0 29px;
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+}
+.main .big-box .form_boxes .bg-box_two .order-boxes .order-box_three del {
+  padding-left: 30px;
+  color: #ABABAB;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 500;
+}
+.main .big-box .form_boxes .bg-box_two .order-boxes .order-box_three h4 {
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 500;
+}
+.main .big-box .form_boxes .bg-box_two .m-b {
+  margin-bottom: 24px;
+}
 .main .basket {
   width: 295px;
   height: 612px;
@@ -567,7 +747,17 @@ body {
 .main .basket .bottom-box .i-img {
   margin-left: 21px;
 }
+.main .basket-two {
+  width: 400px;
+  height: 574px;
+  margin-left: 20px;
+  margin-top: 160px;
+  padding: 32px;
+  background: #F4F4F4;
+  border-radius: 15px;
+}
 .main .domino-pizza {
+  padding-top: 60px;
   padding-left: 23px;
   margin-top: 24px;
   background-image: url(../../images/domino-bg.png);
@@ -575,8 +765,7 @@ body {
   border-radius: 15px;
   padding-bottom: 32px;
 }
-.main .domino-pizza h4 {
-  padding-top: 83px;
+.main .domino-pizza a {
   color: #FFF;
   font-family: "Montserrat";
   font-size: 36px;
@@ -713,9 +902,12 @@ body {
   max-width: 1002px;
   width: 100%;
 }
-.modal .modal-dialog .modal-content .modal-top {
+.modal .modal-dialog .modal-top {
   padding: 16px;
   text-align: end;
+}
+.modal .modal-dialog .modal-content .modal-body .big-img img {
+  margin-bottom: 20px;
 }
 .modal .modal-dialog .modal-content .modal-body .modal-body_texts {
   margin-left: 15px;
@@ -829,6 +1021,9 @@ body {
   font-weight: 500;
   line-height: 132.9%;
   margin-left: 44px;
+}
+.modal .modal-dialog .modal-content .modal-body .modal-body_texts .modal-tabs .tab-content .tab-pane .tab-pane_wrapper .tab-pane_boxes .active:active {
+  background: #FFF;
 }
 .modal .modal-dialog .modal-content .modal-body .modal-body_texts .modal-tabs .tab-content .tab-pane .tab-pane_wrapper .tab-pane_boxes .m_t {
   padding-top: 24px;

@@ -3,6 +3,8 @@
 
 .main {
     .big-box {
+
+        // menu
         .menu {
             width: 925px;
             margin-top: 50px;
@@ -24,8 +26,221 @@
                 }
             }
         }
+
+        // form 
+        .form_boxes {
+            margin-bottom: 48px;
+            .form-title {
+                color: variables.$black;
+                font-family: "Montserrat";
+                font-size: 32px;
+                font-weight: 600;
+                margin-bottom: 32px;
+            }
+
+            .bg-box {
+                padding: 32px;
+                border-radius: 15px;
+                background: variables.$grey-two;
+
+                h4 {
+                    color: variables.$black;
+                    font-family: "Montserrat";
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+                
+                .two-boxes {
+                    margin: 24px 0 32px 0;
+                    .box {
+                        padding: 8px 24px;
+                        h5 {
+                            color: variables.$black;
+                            font-family: "Montserrat";
+                            font-size: 16px;
+                            font-weight: 500;
+                            margin-bottom: 4px;
+                        }
+                    }
+                    .one-b {
+                        border-radius: 15px;
+                        background: variables.$white;
+                    }
+                }
+
+                .location-box {
+                    margin-bottom: 16px;
+                    align-items: center;
+
+                    p {
+                        color: variables.$black;
+                        font-family: "Montserrat";
+                        font-size: 16px;
+                        font-weight: 500;
+                        margin-left: 8px;
+                        margin-right: 4px;
+                    }
+                }
+
+                .form {
+                    .inputs {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                        gap: 0 20px;
+                        input {
+                            border: transparent;
+                            padding: 11px 98px 12px 14px;
+                            border-radius: 15px;
+                            background: variables.$white;
+
+                            color: #8B8B8B;
+                            font-family: "Montserrat";
+                            font-size: 14px;
+                            font-weight: 400;
+                        }
+                    }
+
+
+                    .input {
+                        margin-top: 16px;
+                        width: 100%;
+                        border: transparent;
+                        padding: 11px 98px 12px 14px;
+                        border-radius: 15px;
+                        background: variables.$white;
+                        margin-right: 18px;
+
+                        color: #8B8B8B;
+                        font-family: "Montserrat";
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                }
+
+                h3 {
+                    margin-top: 40px;
+                    margin-bottom: 24px;
+                    color: variables.$black;
+                    font-family: "Montserrat";
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+            }
+
+            .bg-box_two {
+                margin-top: 32px;
+                .bg-box-title {
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 24px;
+
+                    p {
+                        color: #979797;
+                        font-family: "Montserrat";
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                }
+
+                .food_box {
+                    margin-bottom: 24px;
+                    border-radius: 15px;
+                    padding: 12px 0px 12px 48px;
+                    background-color: variables.$white;
+                    width: 220px;
+                   
+                    h4 {
+                        color: variables.$black;
+                        font-family: "Montserrat";
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                    .position-absolute {
+                        top: 8px;
+                        left: 16px;
+                    }
+
+                }
+
+                .order-boxes {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .order-box_one {
+                        display: flex;
+                        img {
+                            width: 100px;
+                            height: 99px;
+                        }
+                        .box_one-texts{
+                            margin-left: 16px;
+
+                            h4 {
+                                width: 154px;
+                                color: #000;
+                                font-family: "Montserrat";
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 135.9%;
+                            }
+
+                            p {
+                                margin-top: 4px;
+                                width: 188px;
+                                color: #000;
+                                font-family: "Montserrat";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 132.4%;
+                            }
+                        }
+                    }
+
+                    .order-box_two {
+                        border-radius: 15px;
+                        background: variables.$white;
+                        display: flex;
+                        padding: 10px 12px;
+                        justify-content: center;
+                        align-items: center;
+
+                        p {
+                            margin: 0 29px;
+                            color: #000;
+                            font-family: 'Montserrat';
+                            font-size: 16px;
+                            font-weight: 400;
+                        }
+                    }
+                    
+                    .order-box_three {
+                        del {
+                            padding-left: 30px;
+                            color: #ABABAB;
+                            font-family: 'Montserrat';
+                            font-size: 12px;
+                            font-weight: 500;
+                        }
+
+                        h4 {
+                            color: #000;
+                            font-family: "Montserrat";
+                            font-size: 24px;
+                            font-weight: 500;
+                        }
+                    }
+
+                }
+
+                .m-b {
+                    margin-bottom: 24px;
+                }
+            }
+        }
     }
 
+    // backet
     .basket {
         width: 295px;
         height: 612px;
@@ -33,7 +248,7 @@
         margin-top: 98px;
         margin-left: 20px;
         border-radius: 15px 15px 0px 0px;
-        background: #F4F4F4;
+        background: variables.$grey-two;
 
         .basket-title {
             h4 {
@@ -98,8 +313,21 @@
         }
     }
 
+    // backet-two 
+    .basket-two {
+        width: 400px;
+        height: 574px;
+        margin-left: 20px;
+        margin-top: 160px;
+        padding: 32px;
+        background: variables.$grey-two;
+        border-radius: 15px;
+    
+    }
+
     // domino's pizza
     .domino-pizza {
+        padding-top: 60px;
         padding-left: 23px;
         margin-top: 24px;
         background-image: url(../../images/domino-bg.png);
@@ -107,8 +335,7 @@
         border-radius: 15px;
         padding-bottom: 32px;
 
-        h4 {
-            padding-top: 83px;
+        a {
             color: variables.$white;
             font-family: "Montserrat";
             font-size: 36px;
@@ -186,7 +413,7 @@
                 width: 220px;
                 padding: 16px 17px 12px 16px;
                 border-radius: 15px;
-                background: #F4F4F4;
+                background: variables.$grey-two;
 
                 .food-img_box {
                     margin-bottom: 5px;
@@ -284,13 +511,20 @@
         max-width: 1002px;
         width: 100%;
 
+        .modal-top {
+            padding: 16px;
+            text-align: end;
+        }
+
         .modal-content {
-            .modal-top {
-                padding: 16px;
-                text-align: end;
-            }
 
             .modal-body {
+                .big-img {
+                    img {
+                        margin-bottom: 20px;
+                    }
+                }
+
                 .modal-body_texts {
                     margin-left: 15px;
 
@@ -331,7 +565,7 @@
                             align-items: center;
                             justify-content: space-around;
                             border-radius: 15px;
-                            background: #F4F4F4;
+                            background: variables.$grey-two;
                             padding: 5px 16px 4px 12px;
 
                             .nav-link {
@@ -371,7 +605,7 @@
                                 .tab-pane_wrapper {
                                     padding: 11px 12px;
                                     border-radius: 15px;
-                                    background: #F4F4F4;
+                                    background: variables.$grey-two;
 
                                     .tab-pane_boxes {
                                         margin-top: 8px;
@@ -429,6 +663,11 @@
                                             }
                                         }
 
+                                        .active:active {
+                                            background: variables.$white;
+
+                                        }
+
                                         .m_t {
                                             padding-top: 24px;
                                         }
@@ -438,6 +677,7 @@
                                         }
                                     }
                                 }
+
                             }
                         }
                     }
@@ -488,8 +728,8 @@
                             font-size: 15px;
                             font-weight: 500;
                         }
-                        img {
-                        }
+
+                        img {}
                     }
                 }
             }

@@ -30,12 +30,16 @@
         // form 
         .form_boxes {
             margin-bottom: 48px;
+
             .form-title {
-                color: variables.$black;
-                font-family: "Montserrat";
-                font-size: 32px;
-                font-weight: 600;
-                margin-bottom: 32px;
+                a {
+                    color: variables.$black;
+                    font-family: "Montserrat";
+                    font-size: 32px;
+                    font-weight: 600;
+                    padding-bottom: 32px;
+                    display: flex;
+                }
             }
 
             .bg-box {
@@ -49,11 +53,13 @@
                     font-size: 24px;
                     font-weight: 600;
                 }
-                
+
                 .two-boxes {
                     margin: 24px 0 32px 0;
+
                     .box {
                         padding: 8px 24px;
+
                         h5 {
                             color: variables.$black;
                             font-family: "Montserrat";
@@ -62,6 +68,7 @@
                             margin-bottom: 4px;
                         }
                     }
+
                     .one-b {
                         border-radius: 15px;
                         background: variables.$white;
@@ -85,8 +92,9 @@
                 .form {
                     .inputs {
                         display: grid;
-                        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
                         gap: 0 20px;
+
                         input {
                             border: transparent;
                             padding: 11px 98px 12px 14px;
@@ -100,6 +108,9 @@
                         }
                     }
 
+                    .m-t {
+                        margin-top: 16px;
+                    }
 
                     .input {
                         margin-top: 16px;
@@ -129,6 +140,7 @@
 
             .bg-box_two {
                 margin-top: 32px;
+
                 .bg-box-title {
                     align-items: center;
                     justify-content: space-between;
@@ -148,13 +160,14 @@
                     padding: 12px 0px 12px 48px;
                     background-color: variables.$white;
                     width: 220px;
-                   
+
                     h4 {
                         color: variables.$black;
                         font-family: "Montserrat";
                         font-size: 14px;
                         font-weight: 500;
                     }
+
                     .position-absolute {
                         top: 8px;
                         left: 16px;
@@ -169,11 +182,13 @@
 
                     .order-box_one {
                         display: flex;
+
                         img {
                             width: 100px;
                             height: 99px;
                         }
-                        .box_one-texts{
+
+                        .box_one-texts {
                             margin-left: 16px;
 
                             h4 {
@@ -213,7 +228,7 @@
                             font-weight: 400;
                         }
                     }
-                    
+
                     .order-box_three {
                         del {
                             padding-left: 30px;
@@ -238,6 +253,10 @@
                 }
             }
         }
+    }
+
+    .big-box-two {
+        width: 820px;
     }
 
     // backet
@@ -322,7 +341,153 @@
         padding: 32px;
         background: variables.$grey-two;
         border-radius: 15px;
-    
+
+        .basket-title {
+            h4 {
+                margin-bottom: 31px;
+                color: variables.$black;
+                font-family: "Montserrat";
+                font-size: 24px;
+                font-weight: 600;
+            }
+        }
+
+        .backet-body {
+            .top-box {
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 0.5px solid #BEBEBE;
+                padding-bottom: 24px;
+                margin-bottom: 24px;
+
+                .d-flex {
+                    align-items: center;
+
+                    h4 {
+                        margin-left: 8px;
+                        color: variables.$black;
+                        font-family: "Montserrat";
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+                }
+
+                .change-btn {
+                    padding: 8px 16px;
+                    border-radius: 15px;
+                    background: variables.$white;
+
+                    color: variables.$black;
+                    font-family: "Montserrat";
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+            }
+
+            .total {
+                border-bottom: 0.5px solid #BEBEBE;
+                padding-bottom: 8px;
+
+                h4 {
+                    color: variables.$black;
+                    font-family: "Montserrat";
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+
+                .d-flex {
+                    margin: 16px 0;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    p {
+                        color: variables.$black;
+                        font-family: "Montserrat";
+                        font-style: normal;
+                        font-weight: 500;
+                    }
+                }
+            }
+
+            .promo_code-box {
+                border-bottom: 0.5px solid #BEBEBE;
+                padding-bottom: 24px;
+                margin-top: 24px;
+
+                h4 {
+                    color: #A1A1A1;
+                    font-family: "Montserrat";
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+
+                .d-flex {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 14px;
+
+                    p {
+                        color: variables.$black;
+                        font-family: "Montserrat";
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+
+                    .on-off {
+                        width: 46px;
+                        height: 24px;
+                        background: #BCBCBC;
+                        border-radius: 15px;
+
+                        .round {
+                            margin: 4px;
+                            border-radius: 50%;
+                            width: 18px;
+                            height: 16px;
+                            background: variables.$white;
+                        }
+
+                        &:focus .round {
+                            transform: translateX(20px);
+                        }
+                    }
+                }
+            }
+
+            .bottom-box {
+                .bottom-texts {
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-top: 24px;
+                    margin-bottom: 32px;
+
+                    h4 {
+                        margin: 0;
+                        color: variables.$black;
+                        font-family: "Montserrat";
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+                }
+
+                .d-flex {
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .button {
+                        padding: 11px 59px 12px 60px;
+                    }
+
+                    h4 {
+                        color: variables.$black;
+                        font-family: "Montserrat";
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
     }
 
     // domino's pizza

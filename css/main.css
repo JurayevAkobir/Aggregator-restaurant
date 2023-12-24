@@ -77,7 +77,7 @@ body {
   display: flex;
   align-items: center;
 }
-.header__box .brand h2 {
+.header__box .brand a {
   color: #FF4C34;
   font-family: "Inter";
   font-size: 36px;
@@ -510,12 +510,13 @@ body {
 .main .big-box .form_boxes {
   margin-bottom: 48px;
 }
-.main .big-box .form_boxes .form-title {
+.main .big-box .form_boxes .form-title a {
   color: #1E1E1E;
   font-family: "Montserrat";
   font-size: 32px;
   font-weight: 600;
-  margin-bottom: 32px;
+  padding-bottom: 32px;
+  display: flex;
 }
 .main .big-box .form_boxes .bg-box {
   padding: 32px;
@@ -559,7 +560,7 @@ body {
 }
 .main .big-box .form_boxes .bg-box .form .inputs {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
   gap: 0 20px;
 }
 .main .big-box .form_boxes .bg-box .form .inputs input {
@@ -571,6 +572,9 @@ body {
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
+}
+.main .big-box .form_boxes .bg-box .form .m-t {
+  margin-top: 16px;
 }
 .main .big-box .form_boxes .bg-box .form .input {
   margin-top: 16px;
@@ -687,6 +691,9 @@ body {
 .main .big-box .form_boxes .bg-box_two .m-b {
   margin-bottom: 24px;
 }
+.main .big-box-two {
+  width: 820px;
+}
 .main .basket {
   width: 295px;
   height: 612px;
@@ -755,6 +762,125 @@ body {
   padding: 32px;
   background: #F4F4F4;
   border-radius: 15px;
+}
+.main .basket-two .basket-title h4 {
+  margin-bottom: 31px;
+  color: #1E1E1E;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+}
+.main .basket-two .backet-body .top-box {
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px solid #BEBEBE;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+.main .basket-two .backet-body .top-box .d-flex {
+  align-items: center;
+}
+.main .basket-two .backet-body .top-box .d-flex h4 {
+  margin-left: 8px;
+  color: #1E1E1E;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+}
+.main .basket-two .backet-body .top-box .change-btn {
+  padding: 8px 16px;
+  border-radius: 15px;
+  background: #FFF;
+  color: #1E1E1E;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+}
+.main .basket-two .backet-body .total {
+  border-bottom: 0.5px solid #BEBEBE;
+  padding-bottom: 8px;
+}
+.main .basket-two .backet-body .total h4 {
+  color: #1E1E1E;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+}
+.main .basket-two .backet-body .total .d-flex {
+  margin: 16px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .basket-two .backet-body .total .d-flex p {
+  color: #1E1E1E;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+}
+.main .basket-two .backet-body .promo_code-box {
+  border-bottom: 0.5px solid #BEBEBE;
+  padding-bottom: 24px;
+  margin-top: 24px;
+}
+.main .basket-two .backet-body .promo_code-box h4 {
+  color: #A1A1A1;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+}
+.main .basket-two .backet-body .promo_code-box .d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+}
+.main .basket-two .backet-body .promo_code-box .d-flex p {
+  color: #1E1E1E;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+}
+.main .basket-two .backet-body .promo_code-box .d-flex .on-off {
+  width: 46px;
+  height: 24px;
+  background: #BCBCBC;
+  border-radius: 15px;
+}
+.main .basket-two .backet-body .promo_code-box .d-flex .on-off .round {
+  margin: 4px;
+  border-radius: 50%;
+  width: 18px;
+  height: 16px;
+  background: #FFF;
+}
+.main .basket-two .backet-body .promo_code-box .d-flex .on-off:focus .round {
+  transform: translateX(20px);
+}
+.main .basket-two .backet-body .bottom-box .bottom-texts {
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.main .basket-two .backet-body .bottom-box .bottom-texts h4 {
+  margin: 0;
+  color: #1E1E1E;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+}
+.main .basket-two .backet-body .bottom-box .d-flex {
+  align-items: center;
+  justify-content: space-between;
+}
+.main .basket-two .backet-body .bottom-box .d-flex .button {
+  padding: 11px 59px 12px 60px;
+}
+.main .basket-two .backet-body .bottom-box .d-flex h4 {
+  color: #1E1E1E;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
 }
 .main .domino-pizza {
   padding-top: 60px;

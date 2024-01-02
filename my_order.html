@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои заказы</title>
+    <!-- Inter font -->
+    <link rel="stylesheet" href="./fonts/inter/stylesheet.css">
+    <!-- Montserrat font -->
+    <link rel="stylesheet" href="./fonts/montserrat/stylesheet.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.min.css">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="./libs/normalize.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- header section -->
+        <section class="header">
+            <div class="contianer">
+                <div class="header__box d-flex">
+
+                    <div class="brand">
+                        <a href="index.html">Delivery</a>
+                    </div>
+
+                    <div class="search-boxes">
+                        <form class="form d-flex" role="search">
+                            <div class="search-box position-relative">
+                                <img class="position-absolute" src="images/icons/search.svg" alt="search">
+                                <input class="search-input me-2" type="search" placeholder="Найти ресторан или блюдо"
+                                    aria-label="Search">
+                            </div>
+                            <button class="button" type="submit">Поиск</button>
+                        </form>
+                    </div>
+
+                    <div class="dostavka-box">
+                        <button class="button">
+                            <img src="images/icons/location.svg" alt="location">
+                            Укажите адрес доставки
+                        </button>
+                    </div>
+
+                    <div class="access-box d-flex">
+                        <div class="rus-box">
+                            <div class="earth-icon">
+                                <img src="images/icons/earth.svg" alt="earth">
+                            </div>
+                            <h5>Русский</h5>
+                        </div>
+                        <div class="access">
+                            <a href="food.html" class="button">Войти</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- main section -->
+        <main class="main">
+
+            <!-- My order -->
+            <section class="my_order">
+                <div class="contianer">
+                    <div class="my_order-title">
+                        <h4>Мои заказы</h4>
+                    </div>
+                    <div class="all-active_boxes d-flex">
+                        <button class="button">Все</button>
+                        <h5>Активные</h5>
+                    </div>
+                    <div class="order_dates-boxes  d-flex">
+                        <div class="order_dates-box position-relative">
+                            <div class="order_dates">
+                                <h5>Заказ от 03.03.2023</h5>
+                            </div>
+                            <div class="d-flex">
+                                <div class="texts">
+                                    <h5>Доставка</h5>
+                                    <h4>№5545454</h4>
+                                </div>
+
+                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                                aria-controls="panelsStayOpen-collapseOne">
+                                                Готовится
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                            <div class="accordion-body position-absolute">
+                                                <h4>Доставка курьером</h4>
+                                                <h5>03.03.2023 15:00-15:30</h5>
+                                                <div class="accordion accordion-two"
+                                                    id="accordionPanelsStayOpenExample">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#panelsStayOpen-collapsetwo"
+                                                                aria-expanded="true"
+                                                                aria-controls="panelsStayOpen-collapseOne">
+                                                                Состав заказа
+                                                            </button>
+                                                        </h2>
+                                                        <div id="panelsStayOpen-collapsetwo"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body position-absolute">
+                                                                <h2>757₽</h2>
+                                                                <div class="d-flex">
+                                                                    <p>Повторить заказ</p>
+                                                                    <p>Что-то не так?</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="order_dates-box order_dates-box-two position-relative">
+                            <div class="order_dates">
+                                <h5>Заказ от 03.03.2023</h5>
+                            </div>
+                            <div class="d-flex">
+                                <div class="texts">
+                                    <h5>Доставка</h5>
+                                    <h4>№5545454</h4>
+                                </div>
+
+                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button accordion-button_two" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                                aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+                                                Получено
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show">
+                                            <div class="accordion-body position-absolute">
+                                                <h4>Доставка курьером</h4>
+                                                <h5>03.03.2023 15:00-15:30</h5>
+                                                <div class="accordion accordion-two"
+                                                    id="accordionPanelsStayOpenExample">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#panelsStayOpen-collapsefour"
+                                                                aria-expanded="true"
+                                                                aria-controls="panelsStayOpen-collapseThree">
+                                                                Состав заказа
+                                                            </button>
+                                                        </h2>
+                                                        <div id="panelsStayOpen-collapsefour"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body position-absolute">
+                                                                <div class="two-boxes two-boxes_border d-flex">
+                                                                    <div class="img-box">
+                                                                        <img src="images/food-img-2.png" alt="food-img-2" width="64px">
+                                                                    </div>
+                                                                    <div class="texts-box d-flex">
+                                                                        <div class="texts">
+                                                                            <h4>Маргарита Гурме,...</h4>
+                                                                            <h5>Классическое Классический борт</h5>
+                                                                            <div class="d-flex">
+                                                                                <h3>287₽</h3>
+                                                                                <del>936₽</del>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="w-box">1</div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="two-boxes d-flex">
+                                                                    <div class="img-box">
+                                                                        <img src="images/food-img-2.png" alt="food-img-2" width="64px">
+                                                                    </div>
+                                                                    <div class="texts-box d-flex">
+                                                                        <div class="texts">
+                                                                            <h4>Маргарита Гурме,...</h4>
+                                                                            <h5>Классическое Классический борт</h5>
+                                                                            <div class="d-flex">
+                                                                                <h3>287₽</h3>
+                                                                                <del>936₽</del>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="w-box">1</div>
+                                                                    </div>
+                                                                </div>
+                                                                <h2>757₽</h2>
+                                                                <div class="d-flex">
+                                                                    <p>Повторить заказ</p>
+                                                                    <p>Что-то не так?</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="order_dates-box position-relative">
+                            <div class="order_dates">
+                                <h5>Заказ от 03.03.2023</h5>
+                            </div>
+                            <div class="d-flex">
+                                <div class="texts">
+                                    <h5>Доставка</h5>
+                                    <h4>№5545454</h4>
+                                </div>
+
+                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button accordion-button_two" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive"
+                                                aria-expanded="true" aria-controls="panelsStayOpen-collapseFive">
+                                                Получено
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show">
+                                            <div class="accordion-body position-absolute">
+                                                <h4>Доставка курьером</h4>
+                                                <h5>03.03.2023 15:00-15:30</h5>
+                                                <div class="accordion accordion-two"
+                                                    id="accordionPanelsStayOpenExample">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#panelsStayOpen-collapsesix"
+                                                                aria-expanded="true"
+                                                                aria-controls="panelsStayOpen-collapseFive">
+                                                                Состав заказа
+                                                            </button>
+                                                        </h2>
+                                                        <div id="panelsStayOpen-collapsesix"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body position-absolute">
+                                                                <h2>757₽</h2>
+                                                                <div class="d-flex">
+                                                                    <p>Повторить заказ</p>
+                                                                    <p>Что-то не так?</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+
+        <!-- footer section -->
+        <footer class="footer">
+            <div class="contianer">
+                <div class="footer-boxes">
+                    <div class="footer-title row">
+                        <div class="col-2">
+                            <h4 class="">Блюда и кухни</h4>
+                        </div>
+                        <div class="col-2">
+                        </div>
+                        <div class="col-2">
+                        </div>
+                        <div class="col-3">
+                        </div>
+                        <div class="col-3">
+                            <h4 class="">О компании</h4>
+                        </div>
+                    </div>
+                    <div class="row footer-texts">
+                        <ul class="col-2">
+                            <li>
+                                <a href="#!!">Выпечка</a>
+                            </li>
+                            <li>
+                                <a href="#!!">Блины</a>
+                            </li>
+                            <li>
+                                <a href="#!!">Чебуреки</a>
+                            </li>
+                            <li>
+                                <a href="#!">Кофе</a>
+                            </li>
+                            <li>
+                                <a href="#!">Десерты</a>
+                            </li>
+                            <li>
+                                <a href="#!">Фастуфут</a>
+                            </li>
+                            <li>
+                                <a href="#!">Грузинская кухня</a>
+                            </li>
+                            <li>
+                                <a href="#!">Хот-дог</a>
+                            </li>
+                        </ul>
+                        <ul class="col-2">
+                            <li>
+                                <a href="#!">Выпечка</a>
+                            </li>
+                            <li>
+                                <a href="#!">Блины</a>
+                            </li>
+                            <li>
+                                <a href="#!">Чебуреки</a>
+                            </li>
+                            <li>
+                                <a href="#!">Кофе</a>
+                            </li>
+                            <li>
+                                <a href="#!">Десерты</a>
+                            </li>
+                            <li>
+                                <a href="#!">Фастуфут</a>
+                            </li>
+                            <li>
+                                <a href="#!">Грузинская кухня</a>
+                            </li>
+                            <li>
+                                <a href="#!">Хот-дог</a>
+                            </li>
+                        </ul>
+                        <ul class="col-2">
+                            <li>
+                                <a href="#!">Выпечка</a>
+                            </li>
+                            <li>
+                                <a href="#!">Блины</a>
+                            </li>
+                            <li>
+                                <a href="#!">Чебуреки</a>
+                            </li>
+                            <li>
+                                <a href="#!">Кофе</a>
+                            </li>
+                            <li>
+                                <a href="#!">Десерты</a>
+                            </li>
+                            <li>
+                                <a href="#!">Фастуфут</a>
+                            </li>
+                            <li>
+                                <a href="#!">Грузинская кухня</a>
+                            </li>
+                            <li>
+                                <a href="#!">Хот-дог</a>
+                            </li>
+                        </ul>
+                        <ul class="col-3">
+                            <li>
+                                <a href="#!">Выпечка</a>
+                            </li>
+                            <li>
+                                <a href="#!">Блины</a>
+                            </li>
+                            <li>
+                                <a href="#!">Чебуреки</a>
+                            </li>
+                            <li>
+                                <a href="#!">Кофе</a>
+                            </li>
+                            <li>
+                                <a href="#!">Десерты</a>
+                            </li>
+                            <li>
+                                <a href="#!">Фастуфут</a>
+                            </li>
+                            <li>
+                                <a href="#!">Грузинская кухня</a>
+                            </li>
+                            <li>
+                                <a href="#!">Хот-дог</a>
+                            </li>
+                        </ul>
+                        <ul class="col-3">
+                            <li>
+                                <a href="#!">Пользовательское соглашение</a>
+                            </li>
+                            <li>
+                                <a href="#!">Контакты</a>
+                            </li>
+                            <li>
+                                <a href="#!">Доставка</a>
+                            </li>
+                            <li>
+                                <a href="#!">Стать партнером</a>
+                            </li>
+                            <li>
+                                <a href="#!">Стать курьером</a>
+                            </li>
+                            <li>
+                                <a href="#!"></a>
+                            </li>
+                            <li class="d-flex">
+                                <a href="#!"><img src="images/icons/sms.svg" alt=""> Обратная связь</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- bootstrap js -->
+    <script src="./libs/bootstrap/js/bootstrap.min.js"></script>
+    <!-- swiper js -->
+    <script src="./libs/swiper/swiper.min.js"></script>
+    <!-- custom js -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

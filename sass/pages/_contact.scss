@@ -193,7 +193,7 @@
 
                             h4 {
                                 width: 154px;
-                                color: #000;
+                                color: variables.$qora;
                                 font-family: "Montserrat";
                                 font-size: 16px;
                                 font-weight: 400;
@@ -203,7 +203,7 @@
                             p {
                                 margin-top: 4px;
                                 width: 188px;
-                                color: #000;
+                                color: variables.$qora;
                                 font-family: "Montserrat";
                                 font-size: 14px;
                                 font-weight: 400;
@@ -222,7 +222,7 @@
 
                         p {
                             margin: 0 29px;
-                            color: #000;
+                            color: variables.$qora;
                             font-family: 'Montserrat';
                             font-size: 16px;
                             font-weight: 400;
@@ -239,7 +239,7 @@
                         }
 
                         h4 {
-                            color: #000;
+                            color: variables.$qora;
                             font-family: "Montserrat";
                             font-size: 24px;
                             font-weight: 500;
@@ -475,7 +475,7 @@
                     align-items: center;
                     justify-content: space-between;
 
-                    .button {
+                    a {
                         padding: 11px 59px 12px 60px;
                     }
 
@@ -667,6 +667,260 @@
     .m-t2 {
         margin-top: 40px;
     }
+
+    // my-order
+    .my_order {
+        .my_order-title {
+            margin-top: 54px;
+            margin-bottom: 32px;
+
+            h4 {
+                color: variables.$black;
+                font-family: "Montserrat";
+                font-size: 32px;
+                font-weight: 600;
+            }
+        }
+
+        .all-active_boxes {
+            align-items: center;
+            margin-bottom: 24px;
+
+            .button {
+                padding: 8px 16px;
+            }
+
+            h5 {
+                margin-left: 23px;
+                color: variables.$black;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+
+        .order_dates-boxes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 0px 20px;
+            .order_dates-box {
+                padding: 24px;
+                width: 400px;
+                height: 345px;
+                border-radius: 15px;
+                background: variables.$grey-two;
+
+                .order_dates {
+                    h5 {
+                        color: variables.$black;
+                        font-family: "Montserrat";
+                        font-size: 20px;
+                        font-weight: 600;
+                        margin-bottom: 24px;
+                    }
+                }
+
+                .d-flex {
+                    .texts {
+                        margin-right: 9px;
+
+                        h5 {
+                            color: variables.$black;
+                            font-family: "Montserrat";
+                            font-size: 18px;
+                            font-weight: 600;
+                        }
+
+                        h4 {
+                            color: variables.$green;
+                            font-family: "Montserrat";
+                            font-size: 18px;
+                            font-weight: 400;
+                            margin-top: 5px;
+                        }
+                    }
+
+                    // accordion
+                    .accordion {
+                        .accordion-item {
+                            border: transparent;
+                            background: variables.$grey-two;
+
+                            .accordion-header {
+                                .accordion-button {
+                                    padding: 8px 16px;
+                                    border-radius: 15px;
+                                    background: variables.$green;
+
+                                    color: variables.$white;
+                                    font-family: "Montserrat";
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    margin-left: 10px;
+                                    line-height: normal;
+
+                                    &:focus {
+                                        display: none;
+                                    }
+                                }
+
+                                .accordion-button_two {
+                                    background-color: #898989;
+                                }
+                            }
+
+                            .accordion-body {
+                                margin-left: 24px;
+                                padding: 0;
+                                left: -10px;
+
+                                .two-boxes {
+                                    padding: 0;
+                                    align-items: center;
+
+                                    .texts-box {
+                                        align-items: center;
+
+                                        .texts {
+
+                                            h4 {
+                                                width: 100px;
+                                                color: variables.$qora;
+                                                font-family: "Montserrat";
+                                                font-size: 12px;
+                                                font-weight: 400;
+                                            }
+
+                                            h5 {
+                                                width: 125px;
+                                                color: variables.$qora;
+                                                font-family: "Montserrat";
+                                                font-size: 10px;
+                                                font-weight: 400;
+                                            }
+
+                                            .d-flex {
+                                                margin-top: 2px;
+                                                margin-left: 14px;
+                                                h3 {
+                                                    color: variables.$qora;
+                                                    font-family: "Montserrat";
+                                                    font-size: 14px;
+                                                    font-weight: 500;
+                                                }
+
+                                                del {
+                                                    color: #ABABAB;
+                                                    font-family: "Montserrat";
+                                                    font-size: 12px;
+                                                    font-weight: 500;
+                                                }
+                                            }
+                                        }
+
+                                        .w-box {
+                                            display: flex;
+                                            width: 67px;
+                                            padding: 5px 0px;
+                                            justify-content: center;
+                                            align-items: center;
+                                            border-radius: 15px;
+                                            background: variables.$white;
+
+                                            color: variables.$qora;
+                                            font-family: "Montserrat";
+                                            font-size: 10px;
+                                            font-weight: 400;
+                                        }
+                                    }
+                                }
+
+                                .two-boxes_border {
+                                    border-bottom: 0.5px solid #BEBEBE;
+                                    padding-bottom: 16px;
+                                }
+
+                                h4 {
+                                    margin-top: 24px;
+                                    margin-left: 14px;
+                                    color: variables.$black;
+                                    font-family: "Montserrat";
+                                    font-size: 18px;
+                                    font-weight: 600;
+                                }
+
+                                h5 {
+                                    margin-left: 14px;
+                                    color: variables.$black;
+                                    font-family: "Montserrat";
+                                    font-size: 18px;
+                                    font-weight: 400;
+                                }
+
+
+                                .accordion-two {
+                                    .accordion-item {
+                                        .accordion-header {
+                                            .accordion-button {
+                                                margin-top: 24px;
+                                                background: transparent;
+                                                color: variables.$qora;
+                                                font-family: "Montserrat";
+                                                font-size: 14px;
+                                                font-weight: 600;
+                                                line-height: 135.9%;
+                                                width: 160px;
+
+                                                &:focus {
+                                                    display: none;
+                                                }
+                                            }
+
+                                        }
+
+                                        .accordion-collapse {
+                                            .accordion-body {
+                                                h2 {
+                                                    margin-left: 2px;
+                                                    color: variables.$black;
+                                                    font-family: "Montserrat";
+                                                    font-size: 32px;
+                                                    font-weight: 600;
+                                                }
+
+                                                .d-flex {
+                                                    p {
+                                                        margin-top: 24px;
+                                                        margin-right: 32px;
+                                                        width: 125px;
+                                                        margin-left: 2px;
+                                                        color: variables.$qora;
+                                                        font-family: "Montserrat";
+                                                        font-size: 14px;
+                                                        font-weight: 600;
+                                                        line-height: 135.9%;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .accordion-two {
+                            position: relative;
+                        }
+                    }
+                }
+            }
+
+            .order_dates-box-two {
+                height: 556px;
+            }
+        }
+    }
 }
 
 // modal section
@@ -802,7 +1056,7 @@
 
                                                 h5 {
                                                     margin: 0 17px;
-                                                    color: #000;
+                                                    color: variables.$qora;
                                                     font-family: "Montserrat";
                                                     font-size: 10px;
                                                     font-weight: 400;

@@ -873,7 +873,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.main .basket-two .backet-body .bottom-box .d-flex .button {
+.main .basket-two .backet-body .bottom-box .d-flex a {
   padding: 11px 59px 12px 60px;
 }
 .main .basket-two .backet-body .bottom-box .d-flex h4 {
@@ -1022,6 +1022,198 @@ body {
 }
 .main .m-t2 {
   margin-top: 40px;
+}
+.main .my_order .my_order-title {
+  margin-top: 54px;
+  margin-bottom: 32px;
+}
+.main .my_order .my_order-title h4 {
+  color: #1E1E1E;
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-weight: 600;
+}
+.main .my_order .all-active_boxes {
+  align-items: center;
+  margin-bottom: 24px;
+}
+.main .my_order .all-active_boxes .button {
+  padding: 8px 16px;
+}
+.main .my_order .all-active_boxes h5 {
+  margin-left: 23px;
+  color: #1E1E1E;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+}
+.main .my_order .order_dates-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 0px 20px;
+}
+.main .my_order .order_dates-boxes .order_dates-box {
+  padding: 24px;
+  width: 400px;
+  height: 345px;
+  border-radius: 15px;
+  background: #F4F4F4;
+}
+.main .my_order .order_dates-boxes .order_dates-box .order_dates h5 {
+  color: #1E1E1E;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .texts {
+  margin-right: 9px;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .texts h5 {
+  color: #1E1E1E;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 600;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .texts h4 {
+  color: #00AE63;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .accordion .accordion-item {
+  border: transparent;
+  background: #F4F4F4;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .accordion .accordion-item .accordion-header .accordion-button {
+  padding: 8px 16px;
+  border-radius: 15px;
+  background: #00AE63;
+  color: #FFF;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 10px;
+  line-height: normal;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .accordion .accordion-item .accordion-header .accordion-button:focus {
+  display: none;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .accordion .accordion-item .accordion-header .accordion-button_two {
+  background-color: #898989;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .accordion .accordion-item .accordion-body {
+  margin-left: 24px;
+  padding: 0;
+  left: -10px;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .accordion .accordion-item .accordion-body .two-boxes {
+  padding: 0;
+  align-items: center;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .accordion .accordion-item .accordion-body .two-boxes .texts-box {
+  align-items: center;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .accordion .accordion-item .accordion-body .two-boxes .texts-box .texts h4 {
+  width: 100px;
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 400;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .accordion .accordion-item .accordion-body .two-boxes .texts-box .texts h5 {
+  width: 125px;
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 10px;
+  font-weight: 400;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .accordion .accordion-item .accordion-body .two-boxes .texts-box .texts .d-flex {
+  margin-top: 2px;
+  margin-left: 14px;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .accordion .accordion-item .accordion-body .two-boxes .texts-box .texts .d-flex h3 {
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .accordion .accordion-item .accordion-body .two-boxes .texts-box .texts .d-flex del {
+  color: #ABABAB;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 500;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .accordion .accordion-item .accordion-body .two-boxes .texts-box .w-box {
+  display: flex;
+  width: 67px;
+  padding: 5px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background: #FFF;
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 10px;
+  font-weight: 400;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .accordion .accordion-item .accordion-body .two-boxes_border {
+  border-bottom: 0.5px solid #BEBEBE;
+  padding-bottom: 16px;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .accordion .accordion-item .accordion-body h4 {
+  margin-top: 24px;
+  margin-left: 14px;
+  color: #1E1E1E;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 600;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .accordion .accordion-item .accordion-body h5 {
+  margin-left: 14px;
+  color: #1E1E1E;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .accordion .accordion-item .accordion-body .accordion-two .accordion-item .accordion-header .accordion-button {
+  margin-top: 24px;
+  background: transparent;
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 135.9%;
+  width: 160px;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .accordion .accordion-item .accordion-body .accordion-two .accordion-item .accordion-header .accordion-button:focus {
+  display: none;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .accordion .accordion-item .accordion-body .accordion-two .accordion-item .accordion-collapse .accordion-body h2 {
+  margin-left: 2px;
+  color: #1E1E1E;
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-weight: 600;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .accordion .accordion-item .accordion-body .accordion-two .accordion-item .accordion-collapse .accordion-body .d-flex p {
+  margin-top: 24px;
+  margin-right: 32px;
+  width: 125px;
+  margin-left: 2px;
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 135.9%;
+}
+.main .my_order .order_dates-boxes .order_dates-box .d-flex .accordion .accordion-two {
+  position: relative;
+}
+.main .my_order .order_dates-boxes .order_dates-box-two {
+  height: 556px;
 }
 
 .modal .modal-dialog {
